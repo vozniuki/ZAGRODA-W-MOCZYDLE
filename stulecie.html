@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stulecie ogrodów</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Amarante" rel="stylesheet"> 
+        <link rel="stylesheet" href="stulecie.css">      
+        <script>
+            function openW() {
+                window.open("wstep.html", "_self");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="sh-div">
+            <div id="blink-b"  onclick = "openW()">
+                <p id="blink-b-p">&#8656;</p></div>
+            <div id="gr-photo-1">
+                    <img class="im-1-min"  alt="" src="IMG/stulec1.jpg">
+                    <img class="im-1-min"  alt="" src="IMG/stulec3.png">
+                    <img class="im-1-min"  alt="" src="IMG/image001.jpg">
+                    <img class="im-1-min"  alt="" src="IMG/stulec5.jpg">
+            </div> 
+            <div id="gr-art-1">
+                <div>
+                    <b>STULECIE OGRODÓW</b><br><br><br>
+                </div>
+                <div id="gr-art-1-p">
+                    <p>  Nigdy jeszcze, a myślimy tu o tysiącach lat, sztuka 
+                        ogrodów&nbsp; nie była udziałem tylu prostych, często biednych, ludzi. Jeśli 
+                        nawet dawniej wokół wiejskich chat gospodynie siały i sadziły ozdobne 
+                        rośliny, to przecież nie myślały, że tkwi w tym głębsza myśl. Chciały 
+                        tylko, by było ładnie.<br><br>
+                        Z tej samej potrzeby upiększenia otoczenia powstawały 
+                        ogromne, piękne i bogate niezwykłą roślinnością parki, oranżerie, ogrody 
+                        krajobrazowe, arboreta i sady.<br><br>
+                        Ogrody Semiramidy uznano za jeden z siedmiu cudów świata.<br><br>
+                        W kolejce dzielnie kroczą&nbsp; renesansowe czy barokowe 
+                        nasadzenia. Wydano na nie mnóstwo pieniędzy, a ich pielęgnacją zajmowały 
+                        się setki ludzi.<br><br>
+                        Czy i dzisiaj zachwycają nas wymyślne rabaty, hektary 
+                        idealnie przystrzyżonych krzewów i drzew, labirynty, sadzawki, fontanny i 
+                        stawy? I jak brzmi przekaz dla naszego pokolenia? Czym jest ogród? Czym 
+                        jest jego tworzenie?&nbsp;<br><br>
+                        Sztuka urządzania ozdobnych ogrodów przerodziła się teraz w 
+                        dostępne niemal każdemu hobby. Rośliny, nawet te niezwykłe, są 
+                        relatywnie tanie i łatwy jest do nich dostęp. W zasięgu ręki okazały się 
+                        także akcesoria ogrodowe, dekoracje, narzędzia, poradniki i wystawy 
+                        pięknych gatunków.&nbsp; Te ostatnie gromadzą wszędzie tysiące ludzi.<br><br>
+                        Można powiedzieć, że dzisiaj ogród ma każdy. Na parapecie 
+                        okna, przed furtką, na balkonie, wokół szykownej rezydencji, ale też w 
+                        starych butach.<br><br>
+                        Ja napiszę 
+                        o tym, jak odnalazłam swój ogród. Jak szłam ku niemu, i jak on wychodził 
+                        mi naprzeciw. I jak to się stało, że wciąż jeszcze jesteśmy w drodze. Ja i 
+                        mój ogród.<br><br>
+                        Nie od razu zrozumiałam, czym w istocie jest coś, co 
+                        nazywam swoim ogrodem, choć od 17 lat mozolnie obsiewam i obsadzam 30. 
+                        arowy skrawek ziemi przylegający do kamiennego domku, w jakim mieszkam.<br><br>
+                        Czy można chaotycznie posadzone setki 
+                        roślin nazwać ogrodem, i czym właściwie jest ten zielny bałagan 
+                        wokół wiejskiego domku?</p>
+                </div> 
+                <br><p onclick="pageRotate()"><a href="#">Tu jest właśnie o tym...</a></p>
+                <p>
+            </div> 
+        </div>
+        <script>
+            document.body.style.opacity = "1";
+            function pageRotate() {
+                document.getElementById("gr-art-1").style.transform = "rotateY(-90deg)";
+                document.getElementById("gr-photo-1").style.transform = "rotateY(90deg)";
+                setTimeout(function () {
+                    document.getElementById("gr-art-1").style.transform = "rotateY(0deg)";
+                    document.getElementById("gr-photo-1").style.transform = "rotateY(0deg)";
+                    window.close();
+                    window.open("spacer-po-ogrodzie.html", "_self");
+                }, 1500);
+            }
+        </script>
+    </body>
+</html>
