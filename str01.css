@@ -1,0 +1,48 @@
+* {font-family: 'BioRhyme Expanded', sans-serif;}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;  
+    background-image: url("STR01/telko-dechy.jpg");}
+.up_div {
+    width: 900px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 14pt;
+    padding-top: 19px;
+}
+.center_div {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.center_left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    color: #FFFFFF;
+    font-size: 13pt;
+}
+.center_right {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    color: #FFFFFF;
+    font-size: 13pt;
+}
+.tt {margin-bottom: 0;}
+.ii {margin-bottom: 30px;}
+.foot_div {
+    width: 900px;
+    text-align: left;
+    color: white;
+    font-size: 13pt;
+}
+pre {margin-bottom: 0px;}
+p {text-align: center;}
+.aa {
+    text-decoration: 
+    color: white;
+}

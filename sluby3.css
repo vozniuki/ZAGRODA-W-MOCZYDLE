@@ -1,0 +1,123 @@
+* {box-sizing: border-box;}
+body {font-family: Kurale ; margin: 0; padding: 0;}
+ a:hover {color:  white;}
+ a {color: white; font-size: 14px;  justify-content: center;}
+.i1 {width: 135px; padding: 20px 0 2px 0;}
+.i1{transition: transform .2s;}
+.i1:hover{transform: scale(2.2);}
+.zsylka {text-align: center;}
+img {width: 100%;}
+
+.i3 {width: 270px; }
+.i3 {transition: transform .2s;}
+.i3:hover{transform: scale(1.8);}
+
+.container-main {
+	width: 1400px; height:2550px;
+    display: flex; 
+	background-image: url(SLUBY3/tloslublwoww.jpg);
+	margin: 20px 5px 0px 0px;
+    justify-content: center;
+    border: 0px green solid; 
+    flex-direction: row;
+}
+.container-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 270px; 
+    background-color: transparent;
+    margin: 70px 5px 0px 10px;
+    padding: 0px;
+	font-size: 15px; 
+	line-height: 20px; 
+	color:red;
+	border: 0px white solid; 
+}
+div .left-1{
+    display: flex;
+    flex-direction: column;
+    width: 270px; height:60px;
+    background-image:  url(SLUBY3/tlonapismik.jpg);
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px 10px 20px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px brown solid; 
+}	
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    width: 500px;  height: 2500px;
+    background-color:transparent;
+    margin: 30px 9px 20px 30px;
+    padding: 20px 2px 20px 20px;
+    font-size: 16px; 
+	line-height: 20px;
+    color:#A2182B; 	
+	border: 0px red solid; 
+}
+
+div .center-1 {
+    display: flex;
+    flex-direction: column;
+    width: 820px; height:130px;
+    background-color: #640E10;
+    margin: 15px 10px 10px 0px;
+    padding: 20px 20px 40px 15px;
+	font-size: 18px; 
+	line-height: 23px; 
+	color:white;
+	border: 0px red solid; 
+}
+
+
+div .center-2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px; height:2300px;
+    background-color:#640E10;
+    margin: 30px 10px 1px 0px;
+    padding: 1px 20px 10px 30px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px red solid; 
+}
+div .center-3 {
+    display: flex;
+    flex-direction: column;
+    width: 540px; height:100px;
+    background-color:#640E10;
+    margin: 20px 0px 40px 10px;
+    padding: 20px 20px 0px 30px;
+	font-size: 13px; 
+	line-height: 19px; 
+	color: #A2182B;
+	border: 0px white solid; 
+}
+   
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    background-color: transparent;
+    margin: 235px 175px 0px 50px;
+    padding: 0px;
+	border: 0px white solid; 
+
+}
+div .right-2{
+    display: flex;
+    flex-direction: column;
+    width: 270px; height:60px;
+    background-image:  url(SLUBY3/tlonapismik.jpg);
+    margin: 28px 10px 10px 5x;
+    padding: 10px 10px 80px 30px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px blue solid; 
+}

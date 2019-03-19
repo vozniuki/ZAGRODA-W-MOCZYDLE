@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opowiadam tu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="wstep.css"> 
+    </head>
+    <body>
+        <div id="container-main">
+            <div id="container-a">
+<pre>opowiadam tu o moim życiu
+pośród pól lasów pośród ludzi
+ptaków kotów i psów
+zasłuchana i głucha zarazem
+otoczona zielonym światem
+zamierania i odradzania się
+w towarzystwie
+grzesznych aniołów
+z jakimi wieczorami
+spieram się o istotę
+ale nie ma ona już znaczenia
+bo kolejny dzień i tak żyje
+po swojemu
+a ja wciąż się temu dziwię
+bo nieustannie się dziwię
+i to jest powód
+albo przyczyna
+albo nawet skutek
+moje miejsce do życia
+to zagroda
+<b>Zagroda w Moczydle</b></pre> 
+            </div>    
+            <div id="container-b">
+                <p onclick="pageRotate('o-mnie.html')"><a href="#"><b>ja</b><br>albo opowieść<br> o nikim</a><br><br><br></p>
+                <p onclick="pageRotate('zagroda.html')"><a href="#"><b>zagroda</b><br>albo tworzenie<br> ruin z ruin</a><br><br><br></p>
+                <p onclick="pageRotate('stulecie.html')"><a href="#"><b>ogródek</b><br>albo odwieczny proces przesadzania z jednego miejsca na inne</a><br><br><br></p>
+                <p onclick="pageRotate('zwierz.html')"><a href="#"><b>zwierzęta</b><br>albo o stworzeniach<br> jakim weszliśmy<br> w drogę</a><br><br><br></p>
+                <p onclick="pageRotate('sklepek.html')"><a href="#"><b>anioły</b><br>albo obraza boska</a></p>
+                
+            </div>
+        </div>
+    <script>
+        document.body.style.opacity = "1";
+        function pageRotate(nn) {
+            document.getElementById("container-b").style.transform = "rotateY(-90deg)";
+            document.getElementById("container-a").style.transform = "rotateY(90deg)";
+            setTimeout(function () {
+                document.getElementById("container-b").style.transform = "rotateY(0deg)";
+                document.getElementById("container-a").style.transform = "rotateY(0deg)";
+                window.close();
+                window.open(nn, "_self");
+            }, 2000);
+        }
+
+    </script>            
+</body>
+</html>

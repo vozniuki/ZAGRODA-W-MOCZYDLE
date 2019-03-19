@@ -1,0 +1,99 @@
+* {font-family: 'Amarante', sans-serif; 
+   box-sizing: border-box;
+   margin:0;
+   padding: 0;
+   margin-block-start: 0;
+   margin-block-end: 0;
+   unicode-bidi: normal;
+}
+body { 
+    margin: 0; 
+    background: url('WSTEP/tlostarypapier2.jpg'); 
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s;
+}
+a {
+  text-decoration: none;
+}
+#container-main {
+    width: 870px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+#container-a {
+    display: flex;
+    flex-direction: column;
+    width: 520px; 
+    height: 840px; 
+    background: url('WSTEP/tlo-do-opowiadam-prawe.jpg');
+    background-size: 100% 100%;
+    padding: 170px 10px 20px 195px; 
+    margin-right: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 27px;
+    transform-origin: left top 0; 
+    transition: transform 2s;
+    -webkit-transition: -webkit-transform 2s;
+}
+#container-a p {
+    margin-top: 10px; 
+    padding-left: 125px; 
+    padding-right: 5px; 
+    text-align: left;  
+}			 
+#container-b {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 840px; 
+    float: right;
+    color:black;  
+    position: static;
+    background: url('WSTEP/tlo-do-opowiadam-lewe.jpg'); 
+    background-size: 100% 100%; 
+    margin-top: 40px;
+    font-size: 16px;
+    transform-origin: right top 0; 
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+padding-top: 150px;
+padding-left: 0px;
+}
+#container-b p {margin-top: 15px; 
+                padding-left: 55px; 
+                padding-right: 45px; 
+                text-align: left;  
+}				 
+#container-b a {color: black;
+}
+@media only screen and (max-width: 430px) {
+    #container-a {width: 100%;
+                  margin-left: 0px;
+                  padding: 200px 10px 20px 20px;
+                  height: 1300px;
+    }
+}
+@media only screen and (max-width: 530px) and (min-width: 431px) {
+    #container-a {width: 100%;
+                  margin-left: 0px;
+                  padding: 200px 10px 20px 20px;
+                  height: 1100px;
+    }
+}
+@media only screen and (max-width: 890px) and (min-width:531px) {
+    #container-a {margin-left: calc(50% - 260px);
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    #container-main {flex-direction: column;}
+    #container-b {
+        margin-left: calc(50% - 150px);
+        padding-top: 70px;
+        height: 400px;}
+}
