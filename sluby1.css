@@ -1,0 +1,146 @@
+* {box-sizing: border-box;}
+body {font-family: Kurale ; margin: 0; padding: 0;}
+ a:hover {color:  white;}
+ a {color: white; font-size: 14px}
+.i1 {width: 135px; padding: 20px 0 2px 0;}
+.i1{transition: transform .2s;}
+.i1:hover{transform: scale(2.2);}
+
+img {width: 100%;}
+
+.i2 {width: 260px; }
+.i2{transition: transform .2s;}
+.i2:hover{transform: scale(1.4);}
+
+.i3 {width: 290px; }
+.i3 {transition: transform .2s;}
+.i3:hover{transform: scale(1.6);}
+
+.container-main {
+	width: 1300px; height:2050px;
+    display: flex; 
+	background-image: url(SLUBY1/papier.jpg);
+	margin: 0px 5px 0px 0px;
+    justify-content: center;
+    border: 0px white solid; 
+    flex-direction: row;
+}
+.container-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 270px; 
+    background-color: transparent;
+    margin: 50px 5px 0px 0px;
+    padding: 0px;
+	border: 0px white solid; 
+}
+div .left-1{
+    display: flex;
+    flex-direction: column;
+    width: 260px; height:65px;
+    background-image:  url(SLUBY1/papierr.jpg);
+    margin: 9px 10px 10px 5x;
+    padding: 10px 10px 73px 30px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px brown solid; 
+}
+.container-center {
+    display: flex;
+    flex-direction: column;
+    width: 450px;  height: 1950px;
+    background-color: transparent;
+    margin: 50px 9px 20px 10px;
+    padding: 0px 2px 20px 20px;
+    font-size: 16px; 
+	line-height: 20px;
+    color:#A2182B; 	
+	border: 0px yellow solid; 
+}
+
+div .center-1 {
+    display: flex;
+    flex-direction: column;
+    width: 800px; height:160px;
+    background-image: url(SLUBY1/papierr.jpg);
+    margin: 9px 10px 10px 5x;
+    padding: 15px 10px 40px 20px;
+	font-size: 18px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px blue solid; 
+}
+
+
+div .center-2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px; height:1600px;
+    background-image: url(SLUBY1/papierr.jpg);
+    margin: 30px 10px 1px 0px;
+    padding: 1px 20px 10px 22px;
+	font-size: 16px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px red solid; 
+}
+div .center-3 {
+    display: flex;
+    flex-direction: column;
+    width: 150px; height:180px;
+    background-color:transparent;
+    margin: 20px 0px 40px 10px;
+    padding: 20px 20px 0px 30px;
+	font-size: 12px; 
+	line-height: 19px; 
+	color: #A2182B;
+	border: 0px white solid; 
+}
+ div .center-4 {
+    display: flex;
+    flex-direction: column;
+    width: 450px; height:80px;
+    background-image:  url(SLUBY1/papierr.jpg);
+    margin: 10px 155px 10px 0px;
+    padding: 10px 20px 10px 30px;
+	text-align:center;
+	font-size: 16px;
+	line-height: 22px; 
+	color:white;
+	border: 0px red solid; 
+}  
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+    width: 300px; height:1750px;
+    background-color: transparent;
+    margin: 240px 75px 0px 54px;
+    padding: 0px;
+	border: 0px white solid; 
+} 
+div .right-1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; height:1530px;
+    background-color: transparent;
+    margin: 200px 155px 10px 0px;
+    padding: 10px 20px 10px 30px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px blue solid; 
+}
+div .right-2{
+    display: flex;
+    flex-direction: column;
+    width: 290px; height:60px;
+    background-image:  url(SLUBY1/papierr.jpg);
+    margin: 9px 10px 10px 5x;
+    padding: 10px 10px 80px 30px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:white;
+	border: 0px brown solid; 
+}
