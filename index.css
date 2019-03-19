@@ -1,0 +1,94 @@
+* {font-family: 'Amarante', sans-serif;
+   box-sizing: border-box;
+   margin:0;
+   padding: 0;
+   margin-block-start: 0;
+   margin-block-end: 0;
+   unicode-bidi: normal;
+}            
+body {
+    width: 100%;
+    height: 900px;
+    background: url('IMG/tlostarypapier2.jpg'); 
+    background-size: 100% 100%;
+    padding-left: calc(50% - 610px);
+    opacity: 0;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s;
+}
+#sh-div {
+    width: 1220px;
+    height: 900px;
+    position: absolute;
+    cursor: pointer;
+}
+#rightC, #leftC {
+    width: 610px; 
+    height: 900px; 
+    position: absolute;
+    overflow: hidden;
+}
+#rightC {
+    transform-origin: right top 0; 
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    left: 610px;
+}
+#leftC {
+    transform-origin: left top 0; 
+    transition: transform 2s;
+    -webkit-transition: -webkit-transform 2s;
+}
+#rightC img {
+}
+#leftC img {
+}
+.idd {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 230px) {
+    body {padding-left: calc(50% - 78px);}
+    #sh-div {width: 156px;}
+    #rightC, #leftC {
+        width: 78px; 
+        height: 115px;
+    }
+    #rightC {left: 78px;}
+}
+@media only screen and (max-width: 350px) and (min-width: 231px) {
+    body {padding-left: calc(50% - 116px);}
+    #sh-div {width: 232px;}
+    #rightC, #leftC {
+        width: 116px; 
+        height: 175px;
+    }
+    #rightC {left: 116px;}
+}
+@media only screen and (max-width: 530px) and (min-width: 351px) {
+    body {padding-left: calc(50% - 176px);}
+    #sh-div {width: 352px;}
+    #rightC, #leftC {
+        width: 176px; 
+        height: 265px;
+    }
+    #rightC {left: 176px;}
+}
+@media only screen and (max-width: 800px) and (min-width: 531px) {
+    body {padding-left: calc(50% - 266px);}
+    #sh-div {width: 532px;}
+    #rightC, #leftC {
+        width: 266px; 
+        height: 400px;
+    }
+    #rightC {left: 266px;}
+}
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+    body {padding-left: calc(50% - 400px);}
+    #sh-div {width: 800px;}
+    #rightC, #leftC {
+        width: 400px; 
+        height: 600px;
+    }
+    #rightC {left: 400px;}
+}

@@ -5,18 +5,32 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-Language" content="pl">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            body {background: url('IMG/.jpg');}
-           .sh-div {width: 1200px; hight: 800px; margin-top: 0px;}
-            @media only screen and (max-width: 500px) {
-                img {width: 1200px; height: 800px; margin-left: 0%;}
-          </head> </style>
+        <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>      
+        <link rel="stylesheet" href="index.css">      
+    </head> 
+    <body> 
+        <script>
+            document.body.style.opacity = "1";
+            function pageRotate() {
+                document.getElementById("rightC").style.transform = "rotateY(-90deg)";
+                document.getElementById("leftC").style.transform = "rotateY(90deg)";
+                setTimeout(function () {
+                    document.getElementById("rightC").style.transform = "rotateY(0deg)";
+                    document.getElementById("leftC").style.transform = "rotateY(0deg)";
+                    window.close();
+                    window.open("wstep.html", "_self");
+                }, 1500);
+            }
+        </script>
+        <div id="sh-div" onclick="pageRotate()">
+            <div id="leftC">
+                <img class="idd" alt="" src="IMG/okladka-zagroda-left.jpg">IMG/okladka-zagroda-right.jpg
 
-     <body> 
-	<div class="sh-div">
-        <a href="Wstep.html">
-
-            <img alt="" src="IMG/okladka-zagroda.jpg"></a>
-			</div>
+            </div>
+            <div id="rightC">
+                <img class="idd" alt="" src="IMG/okladka-zagroda-right.jpg
+                     ">
+            </div>
+        </div>
     </body>
 </html>
