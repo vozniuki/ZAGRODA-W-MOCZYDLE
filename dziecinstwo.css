@@ -1,0 +1,98 @@
+* {box-sizing: border-box;}
+body {font-family: McLaren ; margin: 0; padding: 0;}
+a:hover {color:  white;}
+
+a {color:black; font-size: 27px}
+.i1 {width: 135px; padding: 20px 0 2px 0;}
+.i1{transition: transform .2s;}
+.i1:hover{transform: scale(2.6);}
+img {width: 100%;}
+.i2 {width: 240px; }
+.i3 {width: 300px;}
+.i3 {transition: transform .2s;}
+.i3:hover{transform: scale(1.5);}
+.i4 {width: 300px;}
+.container-main {
+    width: 100%; height:2200px;
+    display: flex; 
+    background-image: url(DZ/tlo-z-kamienia.jpg);
+    justify-content: center;
+    flex-direction: row;
+    border: 0px white solid; 
+}
+.container-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 370px; 
+    background-color: transparent;
+    margin: 70px 0px 0px 130px;
+    padding: 0px;
+    border: 0px red solid; 
+}
+.left1 {
+    transform: rotate(-10deg);
+}
+.left2 {
+    transform: rotate(15deg);
+}
+.left3 {
+    transform: rotate(10deg);
+}
+.left4 {
+    transform: rotate(20deg);
+}
+.left1 {
+    transform: rotate(-10deg);
+}
+.container-center {
+    display: flex;
+    flex-direction: column;
+    width: 850px; height: 1800px;
+    background-color: transparent;
+    margin: 40px 90px 20px 0px;
+    padding: 30px 40px 20px 20px;
+    font-size: 16px; 
+    line-height: 19px;
+    border: 0px blue solid;	
+}
+div .center-4 {
+    display: flex;
+    flex-direction: row;
+    border: 0px brown solid;	
+}
+div .center-1 {
+    display: flex;
+    flex-direction: column;
+    width: 810px; height: 200px;
+    background-color: #394341;
+    margin: 0px 90px 10px 10px;
+    padding: 20px 10px 30px 20px;
+    font-size: 15px; 
+    line-height: 23px; 
+    color: white;
+    border: 0x yellow solid;	
+}
+div .center-2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px; height:1300px;
+    background-color:#C0C0C0;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 10px 35px;
+    font-size: 14px; 
+    line-height: 22px; 
+    color:#000000;
+    border: 0px black solid;	
+}
+div .center-3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px; height:1500px;
+    background-color:#C0C0C0;
+    margin: 10px 10px 10px 20px;
+    padding: 20px 10px 10px 15px;
+    font-size: 13px; 
+    line-height: 21px; 
+    color:black;
+    border: 0px green solid;	
+}
