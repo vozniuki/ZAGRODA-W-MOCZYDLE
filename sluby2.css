@@ -1,0 +1,112 @@
+* {box-sizing: border-box;}
+body {font-family: Kurale ; margin: 0; padding: 0;}
+ a:hover {color:  white;}
+ a {color:#EEE9B9; font-size: 14px}
+.i1 {width: 135px; padding: 20px 0 2px 0;}
+.i1{transition: transform .2s;}
+.i1:hover{transform: scale(2.2);}
+
+img {width: 100%;}
+
+
+.i2 {width: 300px; }
+.i2{transition: transform .2s;}
+.i2:hover{transform: scale(1.5);}
+
+.i3 {width: 250px; }
+.i3 {transition: transform .2s;}
+.i3:hover{transform: scale(1.7);}
+
+
+.container-main {
+	width: 1600px; height:1900px;
+    display: flex; 
+	background-image: url(IMG/tlo-lucjan-slub.jpg);
+	margin: 20px 5px 0px 0px;
+    border: 0px green solid; 
+    flex-direction: row;
+}
+.container-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    background-color: transparent;
+    margin: 100px 5px 0px 40px;
+    padding: 0px;
+	border: 0px white solid; 
+}
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    width: 370px;  height: 1700px;
+    background-color: transparent;
+    margin: 15px 19px 20px 0px;
+    padding: 20px 60px 20px 20px;
+    font-size: 18px; 
+	line-height: 26px; 
+	border: 0px blue solid; 
+}
+
+div .center-1 {
+    display: flex;
+    flex-direction: column;
+    width: 720px; height:320px;
+    background-color: transparent;
+    margin: 35px 50px 10px 0px;
+    padding: 20px 2px 10px 3px;
+	font-size: 17px; 
+	line-height: 22px; 
+	color:#EEE9B9;
+	border: 0px white solid; 
+}
+
+
+div .center-2 {
+    display: flex;
+    flex-direction: column;
+    width: 370px; height:1900px;
+    background-color: transparent;
+    margin: 1px 40px 1px 0px;
+    padding: 1px 5px 10px 3px;
+	font-size: 16px; 
+	line-height: 22px; 
+	color:#EEE9B9;
+	border: 0px red solid; 
+}
+div .center-3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px; height:380px;
+    background-color:transparent;
+    margin: 1600px 0px 0px 10px;
+    padding: 10px 20px 0px 30px;
+	text-align: center;
+	font-size: 13px; 
+	line-height: 26px; 
+	color:#EEE9B9;
+	border: 0px white solid; 
+}
+   
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+    width: 380px; 
+    background-color: transparent;
+    margin: 190px 20px 0px 0px;
+    padding: 0px;
+	border: 0px yellow solid; 
+} 
+div .right-1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px; height:1530px;
+    background-color: transparent;
+    margin: 10px 20px 10px 0px;
+    padding: 10px 20px 10px 30px;
+	font-size: 15px; 
+	line-height: 22px; 
+	color:#EEE9B9;
+	border: 0px red solid; 
+}
